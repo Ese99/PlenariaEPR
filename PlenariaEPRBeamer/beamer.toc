@@ -1,0 +1,9 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Motivación}{2}{0}{1}
+\beamer@sectionintoc {2}{La Escuela de Copenhague}{6}{0}{2}
+\beamer@sectionintoc {3}{EPR}{8}{0}{3}
+\beamer@sectionintoc {4}{Problema de la Macroobjetivación}{24}{0}{4}
+\beamer@sectionintoc {5}{Desigualdades de Bell}{31}{0}{5}
+\beamer@sectionintoc {6}{Computación cuántica}{48}{0}{6}
+\beamer@sectionintoc {7}{IA y Computación Cuántica}{54}{0}{7}
+\beamer@sectionintoc {8}{Bibliografía}{61}{0}{8}

@@ -1,0 +1,45 @@
+\usetheme{Warsaw}
+\RequirePackage{caption}
+\setbeamertemplate{background}{\includegraphics[scale=0.45]{shields/shield-bg.pdf}}
+\setbeamertemplate{bibliography item}[text]
+\setbeamertemplate{blocks}[rounded][shadow]
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{footline}
+{
+\leavevmode
+\hbox{
+   \begin{beamercolorbox}[wd=0.45\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}
+     \usebeamerfont{author in head/foot}\textcolor{white}{\insertshortauthor}
+   \end{beamercolorbox}
+
+   \begin{beamercolorbox}[wd=0.45\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}
+     \usebeamerfont{title in head/foot}\textcolor{vino}{\insertshorttitle}
+   \end{beamercolorbox}
+
+   \begin{beamercolorbox}[wd=0.1\paperwidth,ht=2.25ex,dp=1ex,center]{date in head/foot}
+     \usebeamerfont{date in head/foot}\textcolor{vino}{\insertframenumber{} / \inserttotalframenumber}
+   \end{beamercolorbox}
+}
+}
+\setbeamertemplate{section in toc}[ball unnumbered]
+\setbeamertemplate{subsection in toc}[ball unnumbered]
+
+\definecolor{vino}{RGB}{95,26,31} % wine
+\definecolor{dred}{RGB}{139,0,0} % dark red
+\definecolor{cream}{RGB}{233, 227, 208} % cream
+\definecolor{grisclaro}{HTML}{EAEDEF} %Gris claro
+\definecolor{grisoscuro}{HTML}{7F9297} %Gris oscuro
+
+\captionsetup[figure]{labelfont={color=dred,scriptsize}}
+\setbeamercolor{block title}{bg=cream,fg=dred}
+\setbeamercolor{footline}{bg=cream}
+\setbeamercolor{frametitle}{bg=cream,fg=vino}
+\setbeamercolor{item projected}{fg=white}
+\setbeamercolor{section in toc}{fg=vino}
+\setbeamercolor{subsection in toc}{fg=vino}
+\setbeamercolor{structure}{fg=cream}
+\setbeamercolor{section in head/foot}{fg=white,bg=vino}
+\setbeamercolor{subsection in head/foot}{fg=vino}
+\setbeamercolor{title}{bg=cream,fg=vino}
+
+\setbeamerfont{frametitle}{size=\large}
